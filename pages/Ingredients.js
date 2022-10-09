@@ -8,11 +8,13 @@ const Ingredients = () => {
     const [cocktails, setCocktails] = useState([]); 
     const [search, setSearch] = useState("Gin")
 
+
     const fetchData = () => {
         fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${search}`).then((response) => {
             return response.json()
         }).then((data) => {
-            setCocktails(data.drinks)
+            setCocktails(data.drinks); 
+            console.log("Data")
         })
     }
 
