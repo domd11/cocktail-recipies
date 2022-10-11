@@ -30,6 +30,62 @@ span {
   box-sizing: border-box;
 }
 
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    background-color: white;
+    color: black; 
+  }
+  .ingredient-link {
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  button {
+    margin-left: 10px;
+    border: 1px solid cornflowerblue;
+    background: transparent;
+    padding: 5px;
+    color: cornflowerblue;
+  }
+
+  input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid cornflowerblue;
+    color: lightgray;
+    font-weight: 700;
+  }
+
+  span {
+    padding-left: 10px;
+  }
+
+  span:hover {
+    color: cornflowerblue;
+    transition: ease-in-out;
+    transition-duration: 1s;
+  }
+
+  .drink {
+    display: inline-flex;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+
+    margin-bottom: 10px; margin-right: 10px;
+
+    border-radius: 10px;
+  }
+
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -90,26 +146,28 @@ span {
   }
 
   h1 {
-    color: aqua; 
+    color: white; 
   }
 
-  hr {
-    border: 5px aqua solid;
-    background-color: white;
-    height: 10px;
-  }
+
 
   span:hover {
     color: aqua;
   }
 
+  span {
+    padding-left: 10px;
+  }
+
+
   .drink {
-    margin-bottom: 10px;
-    display: inline-table; 
-    margin-right: 25px;
-    text-align: center;
-    border: 1px white solid;
+    display: inline-flex;
+    border: 1px solid white;
+    width: fit-content;
     padding: 10px;
+
+    margin-bottom: 10px; 
+    margin-right: 10px;
     border-radius: 10px;
   }
 

@@ -37,9 +37,9 @@ const Ingredients = () => {
             cocktails.map((drink) => {
                 return (
                     <div key={drink.idDrink} className="drink">
+                    <Image style={{ height: '100px', borderRadius: '10px', paddingTop: '10px'}} src={drink.strDrinkThumb} alt={drink.strDrink}/>
                         <Link href={`/drink/${drink.idDrink}`} className="link"><span>{drink.strDrink}</span></Link>
                         <br />
-                        <Image style={{ height: '100px', borderRadius: '10px', paddingTop: '10px'}} src={drink.strDrinkThumb} alt={drink.strDrink}/>
                         <br />
                     </div>
                 )
