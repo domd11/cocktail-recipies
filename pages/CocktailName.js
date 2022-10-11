@@ -53,7 +53,10 @@ export default function CocktailName ()  {
             )
         })
         :
-        <p>No data available. Search something else</p>
+        <div className='error'>
+        <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADL0lEQVRoge2azW8OQRzHPz/Eo0HjperAQeJd4iQ9VdsDoY0TEfEWRxIiFX+Bs0iExMGRuAkXbyEuTRFvFw4qigNtghDSkqg2vg7zbI3t8zx0d3a3TXySTWbnmWfm+93ZnZn9zcJ/JhYWqiJJc4E2oBlYAywFGoGZ5SLfgPfAa+AZcAfoMrMvoTQkRlJJ0h5JNyWNaPyMSLohabekUhEG6iQdldSfQHw1+iQdkTQjLxMdkl4GNBCnV9LmLA2UJJ3K0ECc85LqQptYKOlxjiYiHkpqDGViiVx3F8ULSUv+prPm8CtpAdANrAxyVZLzClhvZu+qFahqRG70uAOsy0BYEh4BLWY2VOnHKTX+eJKJYwKgCThR7ceKPSKpA7ielaKUbDazW/HMMUbkZtinwIo8VCXgJbDWzL77mZVurUOEM3EO2FE+rgSqcxlwoGYJuUmvL+DQud+r+1jAet8qtjaL98h2YFGgK5cli4FtfkbcyL78tKRmr38yakTufWJD7nKSs0lSfXTi90gbMDV/PYmZBrRGJ76R9flrSU1FI6sLEJKWVVHCN7K8ACFpGZ3vfCPzCxCSlnlRwjcyqwAhaak4ak1qfCNfC1ORnIEo4Rv5WICQtHyKEtO8zF7CL93bJUXp1loFE9IbJXwjPcCWwA1tLR9Z0RMl/FvrboYNZkV3lBh9Q5Q0B/ecTJb11jDQYGYD4PVIOSp+O3Bj/hvi+cB134pMwNh5JHRj98zsopldJPyte8E/iRu5BPQHbjAL+oDLfoY/amFmQ5JO4GJaIWiW9DlKB6oT4LiZ/fAzqoWDnlB8mLQavbhw0B8RxzFrrXKBzrxUjRMBByuFTSsuGs3sJnAma1UJOG1mFUfWWkHsEm7CacpK1Th5ALTGn42Iv20rNOAi8kU/L6+AZjN7X61AzfcRM/sItOMtzgrgBbChlol/RlKj3DZY3tyX22wKh35vhv7MycRZZbn3LmmT3L5eVjyXtDEzAzEzJUmdclHxULyRdFgFfQFRkrRL0jVJwwnED0u6KmmnpOlptIT8qKYeFz9uwUUtlwELgNnlIoPAB9yOUw9ujuoys8FQGv4zkfgFDTyrdJvc11YAAAAASUVORK5CYII=" alt="error icon"/>
+        <p>No data available. Please search something else</p>
+        </div>
     }
     </div>
   )

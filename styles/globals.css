@@ -7,6 +7,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.error {
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
 Link {
   color: aqua;
   text-decoration: underline;
@@ -123,6 +132,7 @@ span {
     border: 1px solid white;
     margin-left: 10px;
     background-color: transparent;
+    padding: 5px;
   }
 
   button:hover {
@@ -135,17 +145,9 @@ span {
     outline: none;
     background-color: transparent;
     border: 1px solid white;
+    padding: 5px;
+    font-weight: 700;
   } 
-
-  input:hover {
-    color: aqua;
-    border: 1px solid aqua;
-  }
-
-  input:focus {
-    color: white; 
-    border: 1px solid aqua;
-  }
 
   h1 {
     color: white; 
