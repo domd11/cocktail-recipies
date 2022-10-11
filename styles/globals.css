@@ -59,7 +59,7 @@ span {
     padding: 5px;
     outline: none;
     border: 1px solid cornflowerblue;
-    color: lightgray;
+    color: rgb(70, 107, 175);
     font-weight: 700;
   }
 
@@ -85,6 +85,8 @@ span {
   }
 
 }
+
+/* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
   html {
