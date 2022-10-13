@@ -38,7 +38,7 @@ const Ingredients = () => {
                 return (
                     <div key={drink.idDrink} className="drink">
                     <Image style={{ height: '100px', borderRadius: '10px', paddingTop: '10px'}} src={drink.strDrinkThumb} alt={drink.strDrink}/>
-                        <Link href={`/drink/${drink.idDrink}`} className="link"><span>{drink.strDrink}</span></Link>
+                        <Link href={`/drink/${drink.idDrink}`} className="link" style={{ cursor:'pointer' }}><span style={{ cursor: 'pointer' }}>{drink.strDrink}</span></Link>
                         <br />
                         <br />
                     </div>
