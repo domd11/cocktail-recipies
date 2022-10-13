@@ -44,7 +44,7 @@ export default function CocktailName ()  {
 
                 <Image style={{ height: '100px', borderRadius: '10px' }} src={drink.strDrinkThumb} alt={drink.strDrink}/>
                 
-                <Link href={`/drink/${drink.idDrink}`} passHref><span>{drink.strDrink} - <strong>{drink.strAlcoholic}</strong></span></Link>
+                <Link href={`/drink/${drink.idDrink}`} style={{ cursor: 'pointer' }} passHref><span style={{ cursor: 'pointer' }}>{drink.strDrink} - <strong>{drink.strAlcoholic}</strong></span></Link>
              
                 <br />
             
